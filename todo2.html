@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do App</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+  </head>
+  <style>
+    body {
+      background-image: url('bg.jpg');
+      background-size: cover;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <body>
+    <h1>To-Do List Web App</h1>
+    <div class="input-section">
+      <input type="text" id="task" placeholder="Add a new task" />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <div class="task-list">
+      <h2>Pending Tasks</h2>
+      <ul id="pending-tasks"></ul>
+    </div>
+    <div class="task-list">
+      <h2>Completed Tasks</h2>
+      <ul id="completed-tasks"></ul>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
